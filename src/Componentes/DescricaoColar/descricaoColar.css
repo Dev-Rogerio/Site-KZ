@@ -1,0 +1,234 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+baby {
+
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+
+.containner-descricao {
+    display: grid;
+    grid-template-columns: 15% 1fr 15%;
+    grid-template-rows: auto auto auto;
+    grid-template-areas:
+        "nav nav nav"
+        "header header header"
+        "footer footer footer"
+
+    ;
+    grid-gap: 5px;
+    padding: 5px;
+    background-color: #fff;
+}
+
+.card-descicao {
+    display: flex;
+    display: grid;
+    grid-template-columns: 48% 52%;
+    margin-top: 20px;
+    grid-column: 1 / 4;
+    padding: 50px;
+    grid-template-areas: "main" "main";
+    height: 320px;
+    border: 2px solid #222;
+    grid-gap: 15px;
+    background-color: #fff;
+    justify-content: center;
+    align-content: center;
+    margin-top: 50px;
+    justify-items: center;
+
+}
+
+.aside-descricao {
+    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    grid-template-areas:
+        "bloco1 bloco1"
+        "bloco2 bloco2"
+    ;
+
+    grid-area: main;
+    border: 1px solid #222;
+    background-color: #fff;
+    margin: 0 auto;
+    margin-top: 20px;
+    border-radius: 5px;
+    width: 95%;
+    height: 360px;
+    background-color: #efefef;
+    justify-self: center;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    grid-gap: 20px;
+    padding: 20px;
+}
+
+
+.form {
+    margin: 0 auto;
+    display: flex;
+    background-color: blanchedalmond;
+    width: 100%;
+    height: 320px;
+    grid-column: 1/3;
+    border: 1px solid #222;
+    border-radius: ;
+
+}
+
+.main-amostraColar {
+    display: flex;
+    background-color: #f1f1f1;
+    width: 50%;
+    height: 300px;
+    grid-column: 1/2;
+
+}
+
+.mode {
+    position: absolute;
+    display: flex;
+    background-color: #e4dede;
+    height: 47%;
+    width: 47%;
+    grid-area: bloco1;
+    grid-column: 1/2;
+    grid-row: 1/3;
+    border: 1px solid #222;
+    border-radius: 4px;
+    justify-content: center;
+    margin: 0;
+    
+
+}
+
+.h1-desc {
+    /* background-color: rgb(82, 75, 75); */
+    background: rgb(162, 165, 165);
+    color: #222;
+    padding: 20px;
+}
+
+.descricao-colar {
+    position: absolute;
+    background-color: #e4dede;
+    height: 47%;
+    width: 53%;
+    grid-row: 1/3;
+    border: 1px solid #222;
+    text-align: center;
+    font-size: 30px;
+    border: 1px solid #222;
+    border-radius: 4px;
+    margin: 0;
+    margin-top: 0;
+    margin-left: 42%;
+
+}
+.desc-ingles {
+    margin-top: 30px;
+    text-indent: 30px;
+    text-align: justify;
+    padding: 20px;
+    margin-top: 10px;
+    font-size: 25px;
+}
+.imgdesc {
+    width: 450px;
+    border-radius: 5px;
+}
+.booton-descricao {
+    position: absolute;
+    display: block;
+    width: 150px;
+    padding: 7px;
+border-radius: 3px;
+border: 0;
+text-transform: uppercase;
+    background: #222;
+    color: #e9941a;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;    
+    font-family: sans-serif;
+    letter-spacing: 0.1rem;
+    background: #4169e1;
+    box-shadow: 1px 1px 0px 1px #000;   
+    color: white;    
+    grid-area: bloco2;
+    grid-column: 1/3;
+    margin-left: 550px;
+    margin-top: 28px;
+    cursor: pointer;
+}
+.booton-descricao:active {
+    box-shadow: 0 0 0 0 #000, inset 1px 1px 1px #000;
+    transform: translate(3px, 3px);
+}
+.footer-descricao {
+    display: grid;
+    background: #222;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    height: 300px;
+    grid-area: footer;
+    margin-top: 10px;    
+}
+.mode {
+    position: absolute;
+    display: flex;
+    overflow: hidden;
+    width: 40%;
+    height: 47%;
+    margin-right: 860px;  
+    grid-column: 1/4;
+}
+img {
+    transform-origin: center;
+}
+.zoom { 
+    position: absolute;
+    display: flex;
+     overflow: hidden;   
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    justify-self: center;
+    margin-left: 36%;    
+}
+.zoom img {
+    max-width: 100%;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.zoom:hover img {
+    width: 190%;
+    height: 190%;
+    /* -moz-transform: scale(1.9);
+    -webkit-transform: scale(1.9);
+    transform: scale(1.9); */
+}
+.zoom:hover {
+    overflow: scroll;
+    position: relative;
+}
+.voltar{
+    display: flex;
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 20px;
+    font-size: 18px;
+    color: blue;
+    text-decoration: underline;
+}

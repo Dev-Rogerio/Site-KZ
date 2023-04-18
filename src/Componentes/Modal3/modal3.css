@@ -1,0 +1,144 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.containerallDad {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 380px;
+    margin-top: -50px;
+
+}
+
+.painelChildremText {
+    width: 97%;
+    height: 290px;
+    background-color: #dadec7;
+
+    border: 1px solid #222;
+}
+
+.taxa {
+    width: 100%;
+    height: 40px;
+    background-color: #bbb7b7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 1px 1px;
+}
+
+.descriptionPagamento {
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+
+.descriptionTaxa {
+    display: flex;
+    width: 100%;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    color: red;
+    font-weight: 800;
+    margin-top: 25px;
+}
+
+.descriptionAboutTaxa {
+    display: flex;
+    width: 83%;
+    height: 20px;
+    background-color: rgb(207, 207, 47);
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 9%;
+    border-radius: 4px;
+}
+
+.iconsPay {
+    width: 100%;
+    height: 50px;
+    margin-top: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-gap: 40px;
+    margin-left: -1%;
+}
+
+#iconsVisa {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+
+#iconsCielo {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+
+}
+
+#iconsPayPal {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+
+}
+
+#iconsNuBnak {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+
+}
+
+#iconsMasterCard {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+
+.formOfPayment {
+    display: flex;
+    width: 37%;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    margin-top: -1%;
+    grid-gap: 20px;
+    margin-left: 33%;
+
+}
+
+.buttonmodal3 {
+    width: 100%;
+    height: 40px;
+    margin-top: 13%;
+
+}
+
+.finalizar {
+    margin-left: 55%;
+    position: absolute;
+    cursor: pointer;
+    width: 150px;
+    padding: 7px;
+    border-radius: 3px;
+    border: 0;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    letter-spacing: 0.1rem;
+    background: #4169e1;
+    box-shadow: 1px 1px 0px 1px #000;
+    color: white;
+    margin-top: -8%;
+}

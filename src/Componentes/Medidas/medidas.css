@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.footer_medidas {
+    display: grid;
+    background: #222;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    height: 300px;
+    margin-top: 10px;
+    width: 100%;
+  }
+  .redesociais_cad {
+    justify-self: center;
+    grid-column: 1/4;
+    margin-top: -230px;
+  } 
+  .apresentacaomedidas {
+    display: flex;
+   
+    width: 98%;
+    height: 400px;
+    margin-top: 50px;
+    margin-left: -15.5px;
+    grid-column: 1/4;
+    grid-gap: 5px;
+
+  }
+  .fotomedida {
+    width: 50%;
+    height: 400px;
+    margin-top: 50px;
+    margin: 0;
+    border: 1px solid #222;
+   
+   
+  }
+  .descricaomedidas {
+  
+    width: 50%;
+    height: 400px;
+    margin-top: 50px;
+    margin: 0;
+    border: 1px solid #222;
+   
+
+  }
+

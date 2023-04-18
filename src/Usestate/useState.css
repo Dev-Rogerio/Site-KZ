@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.sinput {
+    margin-left: 300px;
+    margin-top: 100px;
+    width: 125px;
+
+}
+
+.buttonState {
+    display: flex;
+    margin-left: 19.5%;
+    margin-top: 3%;
+    grid-gap: 15px;
+
+}
+
+.ten {
+    width: 70px;
+}
+
+.nine {
+    width: 70Px;
+}
+
+.vendedores {
+    margin-left: 19.6%;
+    margin-top: 1%;
+}
+
+#vendas {
+    width: 125px;
+    height: 20px;
+    color: blue;
+    font-size: 10px;
+}
+
+.sbuttonOne {
+    margin-left: 300px;
+    margin-top: 30px;
+    border-radius: 4px;
+    width: 120px;
+    height: 25px;
+    background-color: blue;
+    color: white;
+    /* display: none; */
+
+
+}
+
+.sbuttonTwo {
+    margin-left: 20px;
+    margin-top: 30px;
+    border-radius: 4px;
+    width: 120px;
+    height: 25px;
+    background-color: blue;
+    color: white;
+}
+
+.sres {
+    margin-left: 300px;
+    margin-top: 10px;
+    font-size: 25px;
+}
+
+.horas {
+    display: block;
+    width: 70px;
+    margin-left: 300px;
+    margin-top: 50px;
+
+}
+
+.resp {
+    margin-left: 300px;
+    margin-top: 40px;
+    font-size: 25px;
+}
+
+.sres1 {
+    margin-left: 300px;
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+.sres2 {
+    margin-left: 300px;
+    margin-top: 5px;
+    color: blue;
+    font-size: 25px;
+}

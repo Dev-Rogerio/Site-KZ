@@ -1,0 +1,176 @@
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+.Container_agendamento {
+    display: flex;
+    display: block;
+    grid-column: 1/5;
+
+}
+
+.container_fundo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.txtfundo {
+
+    background: cadetblue;
+    padding: 40px;
+    width: 92%;
+
+}
+
+.containerCurrentDate {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.current-date {
+    margin-left: 470px;
+    color: blue;
+    text-transform: capitalize;
+
+}
+
+.d_date {
+    padding: 10px;
+    justify-content: center;
+    margin-left: 70px;
+    display: flex;
+
+}
+
+
+.horarios {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    grid-gap: 10px;
+
+}
+
+.button_horas {
+    display: flex;
+    width: 70px;
+    padding: 5px;
+    border: 1px solid #222;
+    justify-content: center;
+    border-radius: 5px;
+    background: #ccc;
+    box-shadow: 1px 1px 0px 1px #222;
+
+
+}
+
+.button_horas:active {
+    box-shadow: 0 0 0 0 #222, inset 1px 1px 1px #222;
+    transform: translate(3px, 3px);
+
+}
+
+.i_date {
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #ccc;
+
+}
+
+.h1_txt {
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-family: sans-serif;
+    letter-spacing: 0.1rem;
+}
+
+.container_agendamento {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.footer_agendamento {
+    display: grid;
+    background: #222;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    height: 300px;
+    grid-area: footer;
+    margin-top: 50px;
+    width: 97%;
+    justify-self: center;
+
+}
+
+.i_data {
+    width: 150px;
+    height: 50px;
+    border: 1px solid #222;
+    border-radius: 5px;
+    font-size: 15px;
+    justify-content: center;
+}
+
+.containersection {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.task {
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+.txt_resposta {
+    color: red;
+    font-size: 18px;
+}
+
+.txt_resposta2 {
+    display: block;
+    color: #222;
+    font-size: 18px;
+    margin-top: 12px;
+}
+
+.ButtonConfirma {
+    position: absolute;
+    cursor: pointer;
+    width: 150px;
+    padding: 7px;
+    border-radius: 3px;
+    border: 0;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    letter-spacing: 0.1rem;
+    background: #4169e1;
+    box-shadow: 1px 1px 0px 1px #000;
+    color: white;
+    margin-top: -25px;
+    margin-left: 250px;
+
+}
+
+.buttonConfirmar {
+    box-shadow: 0 0 0 0 #000, inset 1px 1px 1px #000;
+    transform: translate(3px, 3px);
+
+
+}

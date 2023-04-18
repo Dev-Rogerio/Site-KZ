@@ -1,0 +1,219 @@
+{
+	"files": [
+		{
+			"path": "src/Componentes/Cadastro/cadcli.jsx",
+			"bookmarks": [
+				{
+					"line": 23,
+					"column": 2,
+					"label": "CONST-limpar-nome"
+				},
+				{
+					"line": 35,
+					"column": 1,
+					"label": "CONST-limpar-sobrenome"
+				},
+				{
+					"line": 47,
+					"column": 1,
+					"label": "CONST-limparemail"
+				},
+				{
+					"line": 64,
+					"column": 2,
+					"label": "FUNCTION phone"
+				},
+				{
+					"line": 99,
+					"column": 2,
+					"label": "FUNCTION Date"
+				},
+				{
+					"line": 132,
+					"column": 2,
+					"label": "FUNCTION cep"
+				},
+				{
+					"line": 165,
+					"column": 2,
+					"label": "FUNCTION randon"
+				},
+				{
+					"line": 175,
+					"column": 2,
+					"label": "FUNCTION cadcli"
+				},
+				{
+					"line": 197,
+					"column": 4,
+					"label": "FUNCTION email"
+				},
+				{
+					"line": 258,
+					"column": 2,
+					"label": "CONST numero"
+				},
+				{
+					"line": 287,
+					"column": 6,
+					"label": "RETURN"
+				},
+				{
+					"line": 331,
+					"column": 14,
+					"label": "INPUT-nome"
+				},
+				{
+					"line": 338,
+					"column": 13,
+					"label": "INPUT-Snome"
+				},
+				{
+					"line": 346,
+					"column": 13,
+					"label": "INPUT-email"
+				},
+				{
+					"line": 355,
+					"column": 14,
+					"label": "INPUT-celular"
+				},
+				{
+					"line": 365,
+					"column": 14,
+					"label": "INPUT date"
+				},
+				{
+					"line": 378,
+					"column": 13,
+					"label": "INPUT cep"
+				},
+				{
+					"line": 380,
+					"column": 14,
+					"label": "INPUT  endereço"
+				},
+				{
+					"line": 383,
+					"column": 12,
+					"label": "INPUT numero"
+				},
+				{
+					"line": 388,
+					"column": 13,
+					"label": "INPUT complemento"
+				},
+				{
+					"line": 390,
+					"column": 13,
+					"label": "INPUT bairro"
+				},
+				{
+					"line": 392,
+					"column": 14,
+					"label": "INPUT cidade"
+				},
+				{
+					"line": 395,
+					"column": 13,
+					"label": "INPUT unidade federativa"
+				},
+				{
+					"line": 411,
+					"column": 14,
+					"label": "BUTTON"
+				},
+				{
+					"line": 417,
+					"column": 8,
+					"label": "DIV-RES"
+				},
+				{
+					"line": 462,
+					"column": 0,
+					"label": "DEFALT"
+				}
+			]
+		},
+		{
+			"path": "src/Componentes/Modelo/modelo.jsx",
+			"bookmarks": [
+				{
+					"line": 54,
+					"column": 0,
+					"label": "CONST-INGLES"
+				}
+			]
+		},
+		{
+			"path": "src/Componentes/Newsletter/newsletter.jsx",
+			"bookmarks": [
+				{
+					"line": 128,
+					"column": 10,
+					"label": "BUTTON clicar"
+				},
+				{
+					"line": 203,
+					"column": 8,
+					"label": "BUTTON fechar"
+				}
+			]
+		},
+		{
+			"path": "src/Componentes/Formulário/formulario.jsx",
+			"bookmarks": [
+				{
+					"line": 83,
+					"column": 2,
+					"label": "FUNCTION colar"
+				},
+				{
+					"line": 134,
+					"column": 2,
+					"label": "FUNCTION pala"
+				},
+				{
+					"line": 394,
+					"column": 15,
+					"label": "INPUT colar"
+				},
+				{
+					"line": 408,
+					"column": 15,
+					"label": "INPUT pala"
+				},
+				{
+					"line": 421,
+					"column": 15,
+					"label": "INPUTY manga"
+				},
+				{
+					"line": 436,
+					"column": 15,
+					"label": "INPUT torax"
+				},
+				{
+					"line": 448,
+					"column": 15,
+					"label": "INPUT cintura"
+				},
+				{
+					"line": 460,
+					"column": 15,
+					"label": "INPUT quadril"
+				},
+				{
+					"line": 472,
+					"column": 14,
+					"label": "INPUT cumprimento"
+				},
+				{
+					"line": 485,
+					"column": 13,
+					"label": "INPUT punho"
+				}
+			]
+		}
+	]
+}

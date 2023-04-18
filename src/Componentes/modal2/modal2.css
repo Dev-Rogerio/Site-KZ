@@ -1,0 +1,241 @@
+* {
+    padding: 0;
+    margin: 0;
+    /* background-color: #4169e1; */
+}
+
+.capitalize {
+    text-transform: capitalize;
+}
+
+.ShowModal {
+    position: absolute;
+    background-color: rgb(230, 227, 227);
+    width: 65%;
+    height: 227px;
+    border: 1px solid #222;
+    margin-top: -300px;
+    margin-left: 265px;
+
+}
+
+.containerText {
+    display: flex;
+    width: 100%;
+    height: 60px;
+    background-color: #222;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.containerRadio {
+    display: flex;
+    width: 100%;
+    height: 40px;
+    margin-top: 0px;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 30px;
+    padding: -50px;
+    background-color: #ccc;
+    box-shadow: inset 0 0px 2px #2229;
+
+}
+
+#radio1 {
+    margin-left: -25px;
+
+
+}
+
+#radio2 {
+    margin-left: -25px;
+
+}
+
+#radio3 {
+    margin-left: -25px;
+
+}
+
+.iRadioButton {
+    border: 1px solid red
+}
+
+.containerDados {
+    display: flex;
+    width: 100%;
+    height: 75px;
+    background-color: #bbb7b7;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 0 0px 2px #222;
+    /* grid-gap: 10px; */
+
+}
+
+.dadosNome {
+    /* background-color: tomato; */
+    width: 18%;
+}
+
+.dadosNome {
+    padding: 15px;
+}
+
+.lNome {}
+
+.iNome {
+    /* position: absolute; */
+    display: block;
+    width: 100%;
+    height: 18px;
+    border-radius: 4px;
+    outline: none;
+    border: 1px solid #222;
+    background-color: aliceblue;
+    padding: 5px;
+}
+
+.dadosCep {
+    padding: 15px;
+    /* background-color: yellow; */
+    width: 15%;
+}
+
+.iCod {
+    display: block;
+    /* position: absolute; */
+    width: 100%;
+    height: 18px;
+    padding: 5px;
+    border-radius: 4px;
+    outline: none;
+    border: 1px solid #222;
+    background-color: aliceblue;
+
+}
+
+.dadosEnd {
+    padding: 15px;
+    /* background-color: chartreuse; */
+    width: 40%;
+}
+
+.iAddress {
+    /* position: absolute; */
+    display: block;
+    width: 100%;
+    height: 18px;
+    padding: 5px;
+    border-radius: 4px;
+    outline: none;
+    border: 1px solid #222;
+    background-color: aliceblue;
+
+}
+
+.dadosNumber {
+    padding: 15px;
+    /* background-color: seagreen; */
+    width: 8%;
+}
+
+.lNunber {
+    margin-left: 60%x;
+
+}
+
+.iNumber {
+    /* position: absolute; */
+    display: block;
+    width: 100%;
+    height: 18px;
+    border-radius: 4px;
+    outline: none;
+    border: 1px solid #222;
+    background-color: aliceblue;
+    padding: 5px;
+    cursor: pointer;
+
+
+
+}
+
+.dadosComplemento {
+    padding: 15px;
+    /* background-color: yellowgreen; */
+    width: 10%;
+}
+
+.iCompl {
+    /* position: absolute; */
+    display: block;
+    width: 100%;
+    height: 18px;
+    padding: 5px;
+    border-radius: 4px;
+    outline: none;
+    border: 1px solid #222;
+    background-color: aliceblue;
+}
+
+.dadosCel {
+    padding: 15px;
+    /* background-color: #4169e1; */
+    width: 13%;
+
+}
+
+.iPhone {
+    /* position: absolute; */
+    display: block;
+    width: 100%;
+    height: 18px;
+    padding: 5px;
+    border-radius: 4px;
+    outline: none;
+    border: 1px solid #222;
+    background-color: aliceblue;
+}
+
+.response {}
+
+.bConfirmar {
+    display: flex;
+    width: 98%;
+    height: 27px;
+    padding: 10px;
+    margin-top: 2px;
+    justify-content: center;
+    align-items: center;
+}
+
+.ButtonModal2 {
+    margin-left: 80%;
+    position: absolute;
+    cursor: pointer;
+    width: 150px;
+    padding: 7px;
+    border-radius: 3px;
+    border: 0;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    letter-spacing: 0.1rem;
+    background: #4169e1;
+    box-shadow: 1px 1px 0px 1px #000;
+    color: white;
+    margin-top: -5px;
+
+}
+
+.capitalize {
+    text-transform: capitalize;
+}
