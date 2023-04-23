@@ -20,10 +20,11 @@ import Data from "./Componentes/Data/data.jsx";
 import Medidas from "../src/Componentes/Medidas/medidas.jsx";
 import State from "../src/Usestate/useState.jsx";
 import Modal3 from "../src/Componentes/Modal3/modal3.jsx";
-import Finalization from "../src/Finalization/finalization.jsx";
+import Finalization from "./Componentes/Finalization/finalization.jsx";
 import BoasVindas from "./Componentes/BoasVindas/boasVindas.jsx";
 // import Scheduling from "../src/Componentes/Scheduling/scheduling.jsx";
 import Modal2 from "./Componentes/modal2/modal2.jsx";
+import Opening from "./Componentes/Opening/opening.jsx";
 
 // import "./style.css";
 
@@ -53,6 +54,7 @@ function App() {
           <Route path="/finalization" element={<Finalization />} />
           <Route path="/boasvindas" element={<BoasVindas />} />
           <Route path="/modal2" element={<Modal2 />} />
+          <Route path="/opening" element={<Opening />} />
 
           {/* <Route path="/scheduling" element={<Scheduling />} /> */}
         </Routes>

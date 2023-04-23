@@ -16,8 +16,8 @@
     grid-gap: 0.4%;
     grid-column: 2;
     padding: 4px;
-    margin-top: 0px;
-    box-shadow: 0 0 1px 1px #0009;
+    margin-top: -30px;
+    box-shadow: 0 0 1px 1px #2229;
 
 }
 
@@ -56,13 +56,14 @@
 .textForm {
     width: 98%;
     height: 15%;
-    background-color: #6c6a6a;
+    /* background-color: #6c6a6a; */
+    background: #2229;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 7px;
     border-radius: 4px;
-    color: #222;
+
 }
 
 .h1_contato {
@@ -72,7 +73,7 @@
     font-family: sans-serif;
     letter-spacing: 0.15rem;
     font-style: italic;
-    color: #222;
+    color: #f1ece7;
     margin: 5px;
     border-radius: 4px;
 }
@@ -148,9 +149,9 @@
 .text-area {
     position: absolute;
     margin: 0;
-    margin-top: 16%;
+    margin-top: 13%;
     width: 40%;
-    height: 19%;
+    height: 13.8%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -158,10 +159,10 @@
 }
 
 .area-contato {
-    width: 99%;
+    width: 75%;
     height: 100%;
     border: 1px solid #222;
-    margin-top: -5px;
+    margin-top: 55px;
 
 
 }
@@ -184,7 +185,8 @@
     position: absolute;
     width: 40%;
     height: 40px;
-    margin-top: 29%;
+    margin-top: 31%;
+    margin-left: -12%;
 }
 
 .button_contato {
@@ -193,8 +195,8 @@
     padding: 7px;
     background: #4169e1;
     color: #ffffff;
-    margin-top: -6%;
-    margin-left: 72%;
+    margin-top: -19%;
+    margin-left: 80%;
     justify-content: center;
     align-items: center;
     text-transform: uppercase;

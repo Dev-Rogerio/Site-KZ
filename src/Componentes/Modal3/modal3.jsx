@@ -62,23 +62,22 @@ const Modal3 = () => {
       <div className="containerallDad">
         <div className="painelChildremText">
           <div className="taxa">
-            <label className="descriptionPagamento">
-              Taxa de Agendamento R$50,00
+            <label className="stripePagament">
+              Taxa de Deslocamento R$50,00
             </label>
           </div>
 
-          <div className="descriptionTaxa">
+          <div className="stripeAtention">
             <label htmlFor="">Atenção</label>
           </div>
 
-          <div className="descriptionAboutTaxa">
+          <div className="stripe">
             <label htmlFor="">
-              O Horário de atendimento é reservado exclusivamnete para o cliente
-              ser atendido no horário desejado. Não cobramos{" "}
-              <label htmlFor="" font="bold">
-                taxa{" "}
-              </label>{" "}
-              de agendamento, o valor pago será devolvido na hora da compra.
+              O Horário para atendimento é reservado exclusivamnete para o
+              cliente ser atendido no horário desejado.
+              <font className="writing" color="red" border="bold">
+                " Não cobramos deslocamento para compra de camisa."
+              </font>
             </label>
           </div>
 
@@ -139,7 +138,7 @@ const Modal3 = () => {
         </div>
       </div>
       {/* ================================================================================Footer */}
-      <div className="footer-modelo">
+      <div className="footerModal3">
         <div className="nossoendereco">
           Nosso Endereço
           <div className="rodape">

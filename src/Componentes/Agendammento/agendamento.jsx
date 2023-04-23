@@ -19,7 +19,7 @@ import Modal2 from "../modal2/modal2";
 const Agendamento = () => {
   const [currencyDate, setCurencyDate] = useState(new Date());
   let dataAtual = new Date();
-  let dia = dataAtual.getDate() + 1;
+  let dia = dataAtual.getDate();
   let mes = dataAtual.getMonth() + 1;
   let ano = dataAtual.getFullYear();
   let first = window.document.querySelector("button_horas");
@@ -75,9 +75,7 @@ const Agendamento = () => {
     if (date !== "" && dateOne > dateNow) {
       setMostrar(true);
       setRes(
-        `Horáriio agendado para a data, ${formatarData(
-          date
-        )} com período de 1 hora na parte da manhã, das 9h ás 10h?`
+        `Horáriio agendado para a data, ${formatarData(date)} das 9h ás 10h?`
       );
       setRes2(`Confirma o agendamento?`);
     } else if (dateOne <= dateNow) {
@@ -258,27 +256,35 @@ const Agendamento = () => {
           <button className="button_horas" onClick={handleDateNove}>
             9:00hs
           </button>
+          <div> - </div>
           <button className="button_horas" onClick={handleDateDez}>
             10:00hs
           </button>
+          <div> - </div>
           <button className="button_horas" onClick={handleDateOnze}>
             11:00hs
           </button>
+          <div> - </div>
           <button className="button_horas" onClick={handleDateDoze}>
             12:00hs
           </button>
+          <div> - </div>
           <button className="button_horas" onClick={handleDateTreze}>
             13:00hs
           </button>
+          <div> - </div>
           <button className="button_horas" onClick={handleDateQuatorze}>
             14:00hs
           </button>
+          <div> - </div>
           <button className="button_horas" onClick={handleDateQuinze}>
             15:00hs
           </button>
+          <div> - </div>
           <button className="button_horas" onClick={handleDateDezesseis}>
             16:00hs
           </button>
+          <div> - </div>
           <button className="button_horas" onClick={handleDateDezessete}>
             17:00hs
           </button>
@@ -293,7 +299,7 @@ const Agendamento = () => {
               className="ButtonConfirma"
               onClick={() => setShowModal(true)}
             >
-              Confirmar
+              Confirmar agora
             </button>
           ) : null}
         </div>

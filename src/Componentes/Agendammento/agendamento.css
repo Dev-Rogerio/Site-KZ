@@ -4,11 +4,8 @@
 
 }
 
-.Container_agendamento {
-    display: flex;
-    display: block;
-    grid-column: 1/5;
-
+.kz {
+    margin-left: 18.5%;
 }
 
 .container_fundo {
@@ -29,7 +26,10 @@
     display: flex;
     width: 100%;
     align-items: center;
-    margin-top: 20px;
+    margin-top: 3.5%;
+    margin-left: 5%;
+
+
 }
 
 .current-date {
@@ -93,6 +93,7 @@
     letter-spacing: 0.1rem;
 }
 
+
 .container_agendamento {
     width: 100%;
     display: flex;
@@ -108,9 +109,11 @@
     grid-column-end: 4;
     height: 300px;
     grid-area: footer;
-    margin-top: 50px;
+    margin-top: 4.4%;
     width: 97%;
     justify-self: center;
+    position: fixed;
+
 
 }
 

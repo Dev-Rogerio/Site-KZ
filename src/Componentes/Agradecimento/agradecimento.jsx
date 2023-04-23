@@ -57,13 +57,15 @@ function Agradecimento() {
         </section>
 
         <section className="aside-agradecimento">
-          <div className="agradecer">A Kamisaria Agradece Seu Contato</div>
+          <div className="agradecer">A Kamisaria agradece seu contato</div>
 
           <div className="mode-agradecimento">
             Em breve você recebera nossas novidades para se manter sempre
             atualizado.
           </div>
         </section>
+
+        <div className="vazio"></div>
 
         {/* =======================================================aside */}
 

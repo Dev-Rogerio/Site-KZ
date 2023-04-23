@@ -40,6 +40,7 @@ li {
   font-size: 1.25rem;
   margin-top: 150px;
   font-family: "Times New Roman", Times, serif;
+  margin-left: 15.5%;
 }
 
 .logo {
@@ -261,12 +262,14 @@ li {
     margin-top: 30px;
   }
 
+  /* 
   .kz {
     margin-top: 0;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-  }
+    margin-left: 10%;
+  } */
 
   .foto_inicio {
     width: 112%;
