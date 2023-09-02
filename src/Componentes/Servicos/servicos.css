@@ -1,10 +1,9 @@
- * {
+* {
     margin: 0;
     padding: 0;
 }
 
 .dad {
-
     display: grid;
     /* grid-template-columns: 1fr; */
     margin: 10%;
@@ -13,7 +12,6 @@
     width: 400px;
     background-color: burlywood;
     border-radius: 3px;
-   
 }
 
 .l_valor-1 {
@@ -21,17 +19,14 @@
     margin-top: 20px;
     justify-self: center;
     text-transform: uppercase;
-  
-
 }
 
 .valor-1 {
     display: block;
-    margin-top: 6px;  
+    margin-top: 6px;
     justify-self: center;
     background-color: beige;
     border-radius: 3px;
-
 }
 
 .l_valor-2 {
@@ -46,8 +41,8 @@
     justify-self: center;
     background-color: beige;
     border-radius: 3px;
-
 }
+
 .dosbuttons {
     display: grid;
     display: flex;
@@ -56,48 +51,49 @@
 }
 
 .somar {
-    display: grid;   
-    width: 10%;   
+    display: grid;
+    width: 10%;
     height: 40px;
     margin-top: 20px;
     justify-self: center;
     align-items: center;
-    text-transform: uppercase;  
+    text-transform: uppercase;
     font-size: 25px;
     border-radius: 5px;
 }
+
 .subtrair {
-    display: grid;   
-    width: 10%;   
+    display: grid;
+    width: 10%;
     justify-self: center;
     align-items: center;
-    text-transform: uppercase;  
+    text-transform: uppercase;
     font-size: 20px;
     border-radius: 5px;
     font-weight: 900;
     height: 40px;
     margin-top: 20px;
-
 }
+
 .multiplicar {
-    display: grid;  
+    display: grid;
     width: 10%;
     padding: 10px;
     justify-self: center;
     align-items: center;
-    text-transform: uppercase;  
+    text-transform: uppercase;
     font-size: 25px;
     border-radius: 5px;
     height: 40px;
     margin-top: 20px;
-    
 }
+
 .dividir {
-    display: grid;   
-    width: 10%;   
+    display: grid;
+    width: 10%;
     justify-self: center;
     align-items: center;
-    text-transform: uppercase;  
+    text-transform: uppercase;
     font-size: 20px;
     border-radius: 5px;
     font-weight: 900;
@@ -110,7 +106,6 @@
     margin-top: 8px;
     justify-self: center;
     text-transform: uppercase;
-    
 }
 
 .resultado {
@@ -127,7 +122,9 @@
     color: red;
     align-items: center;
 }
-.resumo {display: grid;
+
+.resumo {
+    display: grid;
     position: absolute;
     width: 500px;
     height: 140px;
@@ -139,11 +136,58 @@
     animation: PiscaPisca 1.5s infinite;
     font-size: 22px;
 }
+
 @keyframes PiscaPisca {
     20% {
         color: #e32f21;
     }
+
     10% {
         color: #2be321;
     }
+}
+
+.containerbuttoncor {
+    display: flex;
+    width: 30%;
+    padding: 20px;
+    margin-left: 40%;
+    margin-top: -300px;
+    background-color: aliceblue;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    border: 1px solid #222;
+}
+
+.buttonAzul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: blue;
+    color: white;
+    border-radius: 4px;
+    width: 50%;
+    height: 40px;
+}
+
+.buttonAmarelo {
+    background-color: darkorange;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border-radius: 4px;
+    width: 50%;
+    height: 40px;
+}
+
+.bazuleamarelo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    width: 50%;
+    background-color: #2be321;
 }

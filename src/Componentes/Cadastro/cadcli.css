@@ -4,37 +4,40 @@
 
 
 .corpo {
-  display: grid;  
+  display: grid;
   width: 100vw;
   height: 100vh;
   grid-template-columns: 40% 20% 40%;
   grid-template-areas:
     "nav1 nav2 nav3"
   ;
-  justify-items: center;  
+  justify-items: center;
 
 }
+
 .menucad {
- display: flex;
- grid-template-columns: 40% 20% 40%;
- grid-column: 1/4;
- grid-template-rows: 1fr 1fr;
- grid-template-areas:
-   "first1 first2 first3"
-   "secund1 secund2 secund3"
- ;
- justify-self: center;
- width: 250px;
- height: 180px;
- padding: 20px;
- margin-top: 20px;
-  
+  display: flex;
+  grid-template-columns: 40% 20% 40%;
+  grid-column: 1/4;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas:
+    "first1 first2 first3"
+    "secund1 secund2 secund3"
+  ;
+  justify-self: center;
+  width: 250px;
+  height: 180px;
+  padding: 20px;
+  margin-top: 20px;
+
 }
+
 .header_cadcli {
   display: flex;
   justify-content: center;
   position: relative;
 }
+
 .logo_cadcli {
   display: flex;
   display: grid;
@@ -45,8 +48,9 @@
   grid-row: 1;
   justify-content: center;
   position: absolute;
- 
+
 }
+
 .kz_cadcli {
   display: flex;
   margin-top: 150px;
@@ -58,11 +62,11 @@
   height: 30px;
   padding: 0;
   justify-content: center;
-} 
+}
 
 
 
-.menu_cadcli { 
+.menu_cadcli {
   grid-column: 3/4;
   align-items: center;
   padding: 10px;
@@ -121,9 +125,9 @@
   background-color: #e9941a;
   color: #000;
   font-size: 10px;
-} 
+}
 
-.secaopai { 
+.secaopai {
   width: 96%;
   height: 289px;
   background-color: #fff;
@@ -132,9 +136,10 @@
   margin-top: 20px;
   border: 3px solid #ccc;
   border-radius: 4px;
- 
-  
+
+
 }
+
 .capitalize {
   text-transform: capitalize;
 }
@@ -165,7 +170,7 @@
   margin: 5px;
   grid-column: 200px 800px;
   border-radius: 4px;
-  
+
 }
 
 .lado-cliente {
@@ -206,7 +211,7 @@
   display: flex;
   margin-top: 10px;
   margin-left: 5px;
-  
+
 }
 
 .nome {
@@ -256,7 +261,7 @@
   display: flex;
   margin-left: 5px;
   margin-top: 21px;
-  
+
 }
 
 .cel {
@@ -435,7 +440,7 @@
 
 }
 
-.button_continuar {  
+.button_continuar {
   position: absolute;
   cursor: pointer;
   width: 150px;
@@ -449,8 +454,8 @@
   font-family: sans-serif;
   letter-spacing: 0.1rem;
   background: #4169e1;
-  box-shadow: 1px 1px 0px 1px #000;   
-  color: white; 
+  box-shadow: 1px 1px 0px 1px #000;
+  color: white;
   margin-top: 5px;
   margin-left: 1300px;
 
@@ -459,7 +464,7 @@
 .button_continuar:active {
   box-shadow: 0 0 0 0 #000, inset 1px 1px 1px #000;
   transform: translate(3px, 3px);
- 
+
 
 }
 
@@ -474,11 +479,12 @@
   margin-top: 10px;
   width: 100%;
 }
+
 .redesociais_cad {
   justify-self: center;
   grid-column: 1/4;
   margin-top: -230px;
-} 
+}
 
 
 @media screen and (max-width: 700px) {
@@ -535,177 +541,200 @@
   .footer_cadcli {
     margin-top: 740px;
     grid-column: 1/4;
-  } 
- 
-.secaopai {
-  display: flex;  
-  margin-top: 450px;
-  height: 450px;
-}
-.direcionamento {
-  position: absolute;
-  display: flex;
-  margin-top: -70px;
-  grid-column: 1/4;
-  height: 40px;
-  width: 190%;
-  text-align: center;
-  justify-content: center;
-  align-items: center;
-  border-radius: 4px;
- 
-}
-.secaofilho { 
-  grid-column: 1/4;
-  width: 98%; 
-  height: 385px;
-}
-.email {
-  width: 280px;
-}
-.lado-cliente {
-  height: 180px ;
-}
-.lado-endereco {
-  display: flex;
-  position: absolute;
-  margin-top: 195px;
-  grid-column: 1/4; 
-  width: 191%;
-  margin-left: 5px;
-  height: 180px;
-}
-.dadosendereco {
-  display: flex;
-  grid-column: 1/4;
-  position: absolute;
-  margin-top: 5px;
-  width: 95.7%;
-  text-align: center;
-  justify-content: center;
-}
-.resposta {  
-  display: flex;
-  position: absolute;
-  margin-top: 400px; 
-  
-}
-.res_cli {
-  width: 580px;
-  margin-left: 10px;
-  grid-column: 1/4;
+  }
 
-}
-.l_cep {
-  position: absolute;
-  display: flex; 
-  margin-top: 65px;
-}
-.cep { 
-  position: absolute;
-  display: flex;
-  margin-top: 85px;
-}
-.l_end {
-  position: absolute;
-  display: flex;
-  margin-top: 65px;
-}
-.end {
-  position: absolute;
-  display: flex;
-  margin-top: 85px; 
-}
-.l_num {
-  position: absolute;
-  display: flex;
-  margin-top: 65px;
+  .secaopai {
+    display: flex;
+    margin-top: 450px;
+    height: 450px;
+  }
 
-}
-.l_comp {
-  position: absolute;
-  display: flex;
-  margin-top: 65px;  
-}
-.comp {
-  position: absolute;
-  display: flex;
-  margin-top: 85px;
-  width: 78px;
-}
-.num {
-  position: absolute;
-  display: flex;
-  margin-top: 85px;
-}
-.l_bairro {
-  position: absolute;
-  display: block;
-  margin-top: 125px;
+  .direcionamento {
+    position: absolute;
+    display: flex;
+    margin-top: -70px;
+    grid-column: 1/4;
+    height: 40px;
+    width: 190%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
 
-}
-.bairro {
-  position: absolute;
-  display: block;
-  margin-top: 143px;
-  
-}
-.l_est {
-  position: absolute;
-  display: flex;
-  margin-top: 125px;
-}
-.est {
-  position: absolute;
-  display: flex;
-  margin-top: 143px;
-}
+  }
 
-.l_cid {
-  position: absolute;
-  display: block;
-  margin-top: 125px;
-}
-.cid {
-  position: absolute;
-  display: block;
-  margin-top: 143px;
-} 
-.footer_cadcli {
-  display: flex;
-  flex-direction: column;
-  height: 600px;
-  width: 97%;
-  font-size: 12px;
-  padding: 20px;
-  margin-top: 5px;
-  
-}
-.nossoendereco {
-  margin: 25px;
-}
-.contato {
-  margin-top: 10px;
-  
-}
-.redesociais_cad {
-  display: flex;      
-  position: absolute;
-  margin-top: 335px;
-  margin-left: 80%;
- 
-}
-.rede_cad. {
-  float:inline-end;
-  display: block;
-  margin-left: 40%;
-  margin-top: 4px;
-  z-index: 1;
-  font-size: 25px;
-  color: #E9941A;
-  font-style: italic;
-}
-}
+  .secaofilho {
+    grid-column: 1/4;
+    width: 98%;
+    height: 385px;
+  }
 
+  .email {
+    width: 280px;
+  }
 
+  .lado-cliente {
+    height: 180px;
+  }
 
+  .lado-endereco {
+    display: flex;
+    position: absolute;
+    margin-top: 195px;
+    grid-column: 1/4;
+    width: 191%;
+    margin-left: 5px;
+    height: 180px;
+  }
+
+  .dadosendereco {
+    display: flex;
+    grid-column: 1/4;
+    position: absolute;
+    margin-top: 5px;
+    width: 95.7%;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .resposta {
+    display: flex;
+    position: absolute;
+    margin-top: 400px;
+
+  }
+
+  .res_cli {
+    width: 580px;
+    margin-left: 10px;
+    grid-column: 1/4;
+
+  }
+
+  .l_cep {
+    position: absolute;
+    display: flex;
+    margin-top: 65px;
+  }
+
+  .cep {
+    position: absolute;
+    display: flex;
+    margin-top: 85px;
+  }
+
+  .l_end {
+    position: absolute;
+    display: flex;
+    margin-top: 65px;
+  }
+
+  .end {
+    position: absolute;
+    display: flex;
+    margin-top: 85px;
+  }
+
+  .l_num {
+    position: absolute;
+    display: flex;
+    margin-top: 65px;
+
+  }
+
+  .l_comp {
+    position: absolute;
+    display: flex;
+    margin-top: 65px;
+  }
+
+  .comp {
+    position: absolute;
+    display: flex;
+    margin-top: 85px;
+    width: 78px;
+  }
+
+  .num {
+    position: absolute;
+    display: flex;
+    margin-top: 85px;
+  }
+
+  .l_bairro {
+    position: absolute;
+    display: block;
+    margin-top: 125px;
+
+  }
+
+  .bairro {
+    position: absolute;
+    display: block;
+    margin-top: 143px;
+
+  }
+
+  .l_est {
+    position: absolute;
+    display: flex;
+    margin-top: 125px;
+  }
+
+  .est {
+    position: absolute;
+    display: flex;
+    margin-top: 143px;
+  }
+
+  .l_cid {
+    position: absolute;
+    display: block;
+    margin-top: 125px;
+  }
+
+  .cid {
+    position: absolute;
+    display: block;
+    margin-top: 143px;
+  }
+
+  .footer_cadcli {
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    width: 97%;
+    font-size: 12px;
+    padding: 20px;
+    margin-top: 5px;
+
+  }
+
+  .nossoendereco {
+    margin: 25px;
+  }
+
+  .contato {
+    margin-top: 10px;
+
+  }
+
+  .redesociais_cad {
+    display: flex;
+    position: absolute;
+    margin-top: 335px;
+    margin-left: 80%;
+
+  }
+
+  .rede_cad. {
+    float: inline-end;
+    display: block;
+    margin-left: 40%;
+    margin-top: 4px;
+    z-index: 1;
+    font-size: 25px;
+    color: #E9941A;
+    font-style: italic;
+  }
+}

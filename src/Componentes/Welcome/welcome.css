@@ -1,0 +1,93 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.fotherOfAll {
+    position: absolute;
+    /* background-color: rgb(242, 13, 150); */
+    width: 100%;
+    height: 70.4%;
+    margin-top: -1%;
+    display: block;
+
+}
+
+.didMainWelcome {
+    display: grid;
+    /* background-color: rgb(31, 239, 12); */
+    width: 100%;
+    height: 45%;
+    margin-top: 5px;
+    justify-items: center;
+
+
+
+
+    /* margin-top: -1%; */
+}
+
+.welcome {
+    display: flex;
+    /* background-color: burlywood; */
+    width: 94%;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    font-size: 75px;
+    padding: 20px;
+    margin-top: 0.3%;
+
+}
+
+.descritionWelcome {
+    display: flex;
+    /* background-color: gold; */
+    width: 94%;
+    height: 90%;
+    justify-content: center;
+    align-items: center;
+    margin-top: -1.7%;
+    font-size: 23px;
+}
+
+.divBtnWelcome {}
+
+.booton_Welcome {
+    display: block;
+    width: 193px;
+    height: 40px;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-style: italic;
+    grid-area: bloco2;
+    grid-column: 1/4;
+    cursor: pointer;
+    border: 0;
+    font-family: sans-serif;
+    letter-spacing: 0.1rem;
+    background: #4169e1;
+    box-shadow: 1px 1px 0px 1px #000;
+    color: white;
+}
+
+.booton_Welcome:active {
+    box-shadow: 0 0 0 0 #000, inset 1px 1px 1px #000;
+    transform: translate(3px, 3px);
+
+}
+
+.footerWelcome {
+    position: relative;
+    display: grid;
+    background: #222;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    height: 300px;
+    margin-top: 1%;
+
+}

@@ -1,9 +1,8 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
-import "../Inicio/inicio.css";
+import "../Welcome/welcome.css";
 import Logo from "../Icons/logokz.svg";
-import Capa from "../Icons/fotoCapa.svg";
 import Iinstagram from "../Icons/instagram.svg";
 import Ifacebook from "../Icons/facebook.svg";
 import Ipinterest from "../Icons/pinterest.svg";
@@ -14,10 +13,20 @@ import iinsta from "../Icons/cinsta.svg";
 import itel from "../Icons/ctel.svg";
 import iwhats from "../Icons/cwhats.svg";
 import itwiter from "../Icons/twiter.svg";
+import Modal5 from "../Modal5/modal5";
 
-function Inicio() {
+const Welcome = () => {
+  // window.location.href = "http://localhost:3000/formulario";
+
+  const [go, setGo] = useState(false);
+  const [show, setShow] = useState(false);
+
+  const pageCadCli = () => {
+    setGo(true);
+  };
+
   return (
-    <container>
+    <>
       <section className="containner">
         <img className="logo" src={Logo} alt="" />
         <header className="kz">KAMISARIA ZANUTO</header>
@@ -33,7 +42,7 @@ function Inicio() {
                 </Link>
 
                 <li className="banner">Camisa masc.</li>
-                <Link to="/welcome">
+                <Link to="/cadcli">
                   <li className="banner">Maneq.virtual</li>
                 </Link>
                 <li className="banner">Monograma</li>
@@ -49,18 +58,26 @@ function Inicio() {
             </Link>
           </ul>
         </div>
-        <img className="foto_inicio" src={Capa} alt="" />
-        <div className="nossatradicao">
-          NOSSA TRADIÇÂO
-          <div className="texto">
-            A Kamisaria Zanuto produz camisas sob medida há 40 anos, nossa
-            especialidade é o corte preciso, a costura perfeita e o caseamento
-            impecável. Hoje também contamos com a nossa divisão de alfaiataria,
-            onde você encontrará tecidos da mais alta qualidade, aviamentos
-            especiais e o corte adequado para o seu biotipo.
+      </section>
+      {/* ===============================================================footer */}
+      <section className="fotherOfAll">
+        <section className="didMainWelcome">
+          <div className="welcome">Seja bem Vindo!</div>
+          <div className="descritionWelcome">
+            Click no botão abaixo para começar
           </div>
-        </div>
-        <div className="footer">
+          <div className="divBtnWelcome">
+            <button className="booton_Welcome" onClick={() => setGo(true)}>
+              Click Aqui
+            </button>
+          </div>
+          {go ? <h1>Deus não falha</h1> : null}
+        </section>
+        <Modal5 mostra={go} setMostra={setGo}></Modal5>
+
+        {/* ===============================================================main */}
+
+        <div className="footerWelcome">
           <div className="nossoendereco">
             Nosso Endereço
             <div className="rodape">
@@ -111,7 +128,7 @@ function Inicio() {
           </div>
         </div>
       </section>
-    </container>
+    </>
   );
-}
-export default Inicio;
+};
+export default Welcome;

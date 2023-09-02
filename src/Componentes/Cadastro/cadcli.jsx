@@ -15,7 +15,7 @@ import itel from "../Icons/ctel.svg";
 import iwhats from "../Icons/cwhats.svg";
 import itwiter from "../Icons/twiter.svg";
 
-function Cadcli() {
+function Cadcli(show, setShow) {
   const limparNome = () => {
     var nome = window.document.querySelector(".nome");
     var res = window.document.querySelector(".res_cli");

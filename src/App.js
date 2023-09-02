@@ -21,10 +21,12 @@ import Medidas from "../src/Componentes/Medidas/medidas.jsx";
 import State from "../src/Usestate/useState.jsx";
 import Modal3 from "../src/Componentes/Modal3/modal3.jsx";
 import Finalization from "./Componentes/Finalization/finalization.jsx";
-import BoasVindas from "./Componentes/BoasVindas/boasVindas.jsx";
+import Welcome from "./Componentes/Welcome/welcome.jsx";
 // import Scheduling from "../src/Componentes/Scheduling/scheduling.jsx";
 import Modal2 from "./Componentes/modal2/modal2.jsx";
 import Opening from "./Componentes/Opening/opening.jsx";
+import Modal5 from "./Componentes/Modal5/modal5.jsx";
+import Pernam from "../src/Componentes/Pernam/index.jsx";
 
 // import "./style.css";
 
@@ -52,9 +54,11 @@ function App() {
           <Route path="/state" element={<State />} />
           <Route path="/modal-cartao" element={<Modal3 />} />
           <Route path="/finalization" element={<Finalization />} />
-          <Route path="/boasvindas" element={<BoasVindas />} />
+          <Route path="/welcome" element={<Welcome />} />
           <Route path="/modal2" element={<Modal2 />} />
           <Route path="/opening" element={<Opening />} />
+          <Route path="/modal5" element={<Modal5 />} />
+          <Route path="/pernam" element={<Pernam />} />
 
           {/* <Route path="/scheduling" element={<Scheduling />} /> */}
         </Routes>
